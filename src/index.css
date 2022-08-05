@@ -11,3 +11,210 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* body styling begins */
+body {
+  background-color: rgba(40,44,52,255);
+}
+  
+/* Header styling begins */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  background-color: #fabe1a;
+  height: 40px;
+  background-size: cover;
+}
+header li {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(252,252,223,255);
+  text-decoration: none;
+}
+
+
+
+/* Footer style begins */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fabe1a;
+  color: rgba(252,252,223,255);;
+  text-align: center;
+  font-size: medium;
+}
+
+
+/*contact form styling begings */
+.login-form {
+  background-color: #b99b69;
+  width: 500px;
+  margin: 65px auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.login-form h1 {
+  padding: 35px 35px 0 35px;
+  font-weight: bold;
+  color: rgba(185,155,105,255);
+}
+.login-form .content {
+  padding: 35px;
+  text-align: center;
+  color: rgba(252,252,223,255);
+}
+.login-form .input-field {
+  padding: 12px 5px;
+}
+.login-form .input-field input {
+  font-size: 16px;
+  display: block;
+  font-family: 'Rubik', sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-top: 5px;
+}
+
+.login-form a.link {
+  text-decoration: none;
+  color: #747474;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
+.login-form .action-form {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+.login-form .action-form button {
+  width: 100%;
+  border: none;
+  padding: 18px;
+  font-family: 'Rubik', sans-serif;
+  
+  text-transform: uppercase;
+  background: rgba(255,145,77,255);
+  color: #777;
+  border: 1px solid black;
+  letter-spacing: 0.2px;
+  outline: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-top: 5px;
+}
+.login-form .action-form button:hover {
+  background: rgba(92,225,230,255);
+}
+.login-form .action-form button:nth-child(2) {
+  background: rgba(92,225,230,255);
+  color: #fff;
+  border: 1px solid black;
+}
+.login-form .action-form button:nth-child(2):hover {
+  background: rgba(255,145,77,255);
+}
+
+/* circle card styling begins */
+
+.circle-container {
+  max-width: 1000px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.circle-box {
+max-width: 500px;
+min-height: 250px;
+position: relative;
+cursor: pointer;
+}
+
+.circle-box .thumb {
+  max-width: 250px;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin-right: 20px;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.thumb .project-link {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff4;
+  text-align: center;
+  line-height: 250px;
+  z-index: 1;
+  transition: 0.5 linear;
+  box-shadow: inset 0 0 2opx 6px #bda9a9;
+  transform: translateY(-250px);
+}
+
+.circle-box:hover .thumb .project-link {
+  transform: translateY(0);
+}
+
+.thumb .project-link a {
+  background: #222;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  color: white;
+  transition: 0.3 linear;
+}
+.thumb .project-link a:hover {
+border-radius: 50%;
+color: crimson;
+}
+  
+.circle-box .text {
+  padding-top: 20px;
+}
+
+.circle-box .text h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.circle-box p {
+  margin: 15px 0;
+}
+
+
