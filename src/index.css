@@ -13,7 +13,7 @@ code {
 }
 /* body styling begins */
 body {
-  background-color: rgba(40,44,52,255);
+  background-color: #28112b;
 }
   
 /* Header styling begins */
@@ -22,18 +22,31 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10px;
-  background-color: #fabe1a;
+  background-color: #fcf6bd;
   height: 40px;
   background-size: cover;
 }
 header li {
   font-weight: 500;
   font-size: 16px;
-  color: rgba(252,252,223,255);
+  color: #907AD6;
   text-decoration: none;
 }
 
-
+/* About me styles */
+.resize {
+  width: 400px;
+  height: auto;
+  border: 2px solid #DABFFF;
+  box-shadow: inset;
+}
+.about-me h1 {
+  font-size: xx-large;
+  color: #fcf6bd;
+}
+.about-me div p {
+  color: #fcf6bd;
+}
 
 /* Footer style begins */
 
@@ -42,8 +55,8 @@ header li {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #fabe1a;
-  color: rgba(252,252,223,255);;
+  background-color: #fcf6bd;
+  color: #907AD6;
   text-align: center;
   font-size: medium;
 }
@@ -206,15 +219,18 @@ color: crimson;
   
 .circle-box .text {
   padding-top: 20px;
+  ;
 }
 
-.circle-box .text h2 {
+.circle-text h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #fcf6bd
 }
 
 .circle-box p {
   margin: 15px 0;
+  color: #fcf6bd;
 }
 
 

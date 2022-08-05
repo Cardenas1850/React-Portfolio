@@ -4,7 +4,7 @@ import myPhoto from "../../images/jason.jpg"
 function About() {
  return (
 <section>
-    <div>
+    <div className="about-me">
         <h1>Jason Cardenas</h1>
         <div>
             <p>
@@ -14,6 +14,7 @@ function About() {
         <div>
             <img src={myPhoto}
             alt="Jason Cardenas, from my wedding day"
+            className="resize"
             />
         </div>
     </div>
