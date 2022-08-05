@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './componets/Footer';
+import About from './componets/About'; 
+import Projects from './componets/Projects';
+import Contact from './componets/Contact';
+import { useState } from 'react';
+import Nav from './componets/Nav';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  function togglePage(page) {
+    if (page === 'About') {
+      return <About />
+    }  if (page === 'Contact') {
+      return <Contact />
+    }  if (page === 'Projects') {
+      return <Projects />
+    }
+  }
+
+  const handlePage = (page) => setCurrentPage(page);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='App'>
+      <Nav
+      setCurrentPage={setCurrentPage}
+      currentPage={currentPage}
+      handlePage={handlePage}></Nav>
+      {togglePage(currentPage)}
+      <Footer />
+    </main>
   );
 }
 
