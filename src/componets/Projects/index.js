@@ -13,13 +13,13 @@ return (
             <div className="thumb">
                 <img src={noteTaker} alt="project 1"></img>
                 <div className="project-link">
-                    <a href="https://cryptic-beach-53854.herokuapp.com/">View Project</a>
+                    <button href="https://cryptic-beach-53854.herokuapp.com/">View Project</button>
                 </div>
             </div>
             <div className="circle-text">
                 <h2>Note Taker</h2>
-                <p>A node JS application that allows users to store and save notes locally</p>
-                <a href="" />
+                <p>button node JS application that allows users to store and save notes locally</p>
+                <button href="" />
             </div>
         </div>
 
@@ -27,12 +27,12 @@ return (
             <div className="thumb">
                 <img src={teamGen} alt="project 1"></img>
                 <div className="project-link">
-                    <a href="https://github.com/Cardenas1850/TeamProfile">View Project</a>
+                    <button href="https://github.com/Cardenas1850/TeamProfile">View Project</button>
                 </div>
             </div>
             <div className="circle-text">
                 <h2>Team Profile Generator</h2>
-                <p>An application that allows users to dynamically generate a team profile page</p>
+                <p>An application that allows users to dynamically generate button team profile page</p>
                 
             </div>
         </div>
@@ -41,7 +41,7 @@ return (
             <div className="thumb">
                 <img src={glass2} alt="project 1"></img>
                 <div className="project-link">
-                    <a href="https://github.com/Caleeeb/glassfiller-2.0">View Project</a>
+                    <button href="https://github.com/Caleeeb/glassfiller-2.0">View Project</button>
                 </div>
             </div>
             <div className="circle-text">
@@ -55,7 +55,7 @@ return (
             <div className="thumb">
                 <img src={recipe} alt="project 1"></img>
                 <div className="project-link">
-                    <a href="https://cardenas1850.github.io/Recipe-Card-Generator/">View Project</a>
+                    <button href="https://cardenas1850.github.io/Recipe-Card-Generator/">View Project</button>
                 </div>
             </div>
             <div className="circle-text">
@@ -69,7 +69,7 @@ return (
             <div className="thumb">
                 <img src={runbuddy} alt="project 1"></img>
                 <div className="project-link">
-                    <a href="https://cardenas1850.github.io/run-buddy/">View Project</a>
+                    <button href="https://cardenas1850.github.io/run-buddy/">View Project</button>
                 </div>
             </div>
             <div className="circle-text">
