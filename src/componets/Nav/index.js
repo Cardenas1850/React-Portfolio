@@ -9,30 +9,30 @@ function Nav(props) {
   
 <header>
 <h1>
-<a data-testid="link" href="/">
-</a>
+<button data-testid="link" href="/">
+</button>
 </h1>
 <nav>
     <ul>
         <li>
-            <a data-testid="#about" onClick={() => setCurrentPage('About')}>
+            <button data-testid="#about" onClick={() => setCurrentPage('About')}>
             About Me    
-            </a>
+            </button>
         </li>
         <li>
-            <a data-testid="#food-projects" onClick={() => setCurrentPage('Food-Projects')}>
+            <button data-testid="#food-projects" onClick={() => setCurrentPage('Food-Projects')}>
                Food Recipes 
-            </a>
+            </button>
         </li>
         <li>
-            <a data-testid="projects" onClick={() => setCurrentPage('Projects')}>
+            <button data-testid="projects" onClick={() => setCurrentPage('Projects')}>
                 My Projects
-            </a>
+            </button>
         </li>
         <li>
-            <a data-testid="contact" onClick={() => setCurrentPage('Contact')}>
+            <button data-testid="contact" onClick={() => setCurrentPage('Contact')}>
                 Contact Me
-            </a>
+            </button>
         </li>
     </ul>
 </nav>
